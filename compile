@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+echo "-----> Installing poppler-utils package"
+
+apt-get update
+apt-get install -y poppler-utils
